@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import { io } from "socket.io-client";
 
 
-const socket = io("http://localhost:4000/")
-// const socket = io("https://chatapp-bw3a.onrender.com/");
+// const socket = io("http://localhost:4000/")
+const socket = io("https://node-handson-5-xyk0.onrender.com/");
 
 const userName = prompt("Enter your name");
 
